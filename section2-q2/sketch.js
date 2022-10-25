@@ -12,30 +12,54 @@ function setup() {
       if(n%2 == 1)
         {
             //jが0から2の時は赤丸
-          if(j<=2)
+          if(j<=3)
           {
 
+ 
+          let u=(i+1)*25;
+          let I=u-12.5;
+          let J=j*25;
+            
           fill(255,0,0);//赤色
-          ellipse(size*i+size*0.5,size*j+size*0.5,25);
+          ellipse(I-25,J-12.5,25); 
 
-          fill(211);//色を灰色
-          rect(i * size, j * size, size,size);
+          fill(255,0,0);
+          ellipse(187.5,12.5,25);
 
+            
       
           }
             //jが3と4の時
-          if(j==3&&j==4)
+          if(j==4&&j==5)
           {
+          
 
           }
             //jが5から7の時は黒丸
-          if(5<=j<=7)
+          if(6<=j&&j<=8)
           {
+         // let a=i*25
+          //let A=a+12.5
+          //let B=j*25
 
+          //fill(0,0,0)
+          //ellipse(A+12.5,B-12.5,25)
+
+
+
+          let u=(i+1)*25;
+          let I=u-12.5;
+          let j=j*25;
+            
+          fill(0,0,0);//赤色
+          ellipse(I+12.5,J,25); 
           }
 
           fill(211);//色を灰色
           rect(i * 25, j * 25, 25,25);
+
+          fill(255,0,0);
+          ellipse(187.5,62.5,25);
         }
       
       else{
@@ -46,3 +70,5 @@ function setup() {
   }
   }
 
+
+         
