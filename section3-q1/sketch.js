@@ -14,7 +14,7 @@ function setup(){
 function draw(){
   background(160, 192, 255);
   count = (count + 1) % cycle;
-  counta = (counta - 1)% cycle;
+  //counta = (counta - 1)% cycle;
   // BLANK[1]
   fill(246,152,150)
   ellipse(width/2,height/2 , size);
