@@ -16,7 +16,10 @@ function setup() {
 
   drawCircle(black, maxR);
   drawArcs(green, red, maxR * 0.8);
-  // BLANK[1] (hint: drawArcs x 3, drawCircle x 1)
+  drawArcs(cream,black,maxR*0.75);
+  drawArcs(green,red,maxR*0.45);
+  drawArcs(cream,black,maxR*0.4);
+  drawCircle(green,maxR*0.1);
   drawCircle(red, maxR * 0.05);
 }
 
@@ -37,3 +40,4 @@ function drawArcs(c1, c2, r) {
     arc(cx, cy, r, r, start, stop, PIE);
   }
 }
+
